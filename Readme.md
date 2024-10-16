@@ -1,44 +1,44 @@
-# Spis treści
+# Table of Contents
 
-* [Regresja liniowa i logistyczna](lab1/Readme.md)
-* [Lasy decyzyjne i boosting](lab2/Readme.md)
-* [Sieci neuronowe](lab3/Readme.md)
-* [Detekcja obiektów](lab4/Readme.md)
-* [Przetwarzanie języka naturalnego](lab5/Readme.md)
-* [Algorytmy rekomendacyjne](lab6/Readme.md)
-* [Podejmowanie decyzji](lab7/Readme.md)
+* [Linear and Logistic Regression](lab1/Readme.md)
+* [Decision Trees and Boosting](lab2/Readme.md)
+* [Neural Networks](lab3/Readme.md)
+* [Object Detection](lab4/Readme.md)
+* [Natural Language Processing](lab5/Readme.md)
+* [Recommender Algorithms](lab6/Readme.md)
+* [Decision Making](lab7/Readme.md)
 
-# Zasady zaliczania laboratoriów
+# Lab Grading Rules
 
-Zasady zaliczania laboratoriów dostępne są w dokumencie przypisanym do kursu na Teamsach.
+The rules for passing the labs are available in the document assigned to the course on Teams.
 
-# Setup środowiska wirtualnego 
+# Virtual Environment Setup
 
-#### Instalacja poetry
+#### Poetry Installation
 
 ```sh
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-#### Stworzenie środowiska wirutalnego oraz pobranie zależności
+#### Creating a Virtual Environment and Installing Dependencies
 
 ```sh
 poetry install
 ```
 
-#### Aktywacja środowiska wirtualnego
+#### Activating the Virtual Environment
 
 ```sh
 poetry shell
 ```
 
-#### Wyjście ze środowiska wirtualnego 
+#### Exiting the Virtual Environment
 
 ```sh
 exit
 ```
 
-#### Usuwanie środowisk wirtualnych
+#### Removing Virtual Environments
 
 ```sh
 poetry env list
