@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ai-course-agh"
+name = "artificial-intelligence-lab"
 version = "0.1.0"
 description = "Exercises for AI course at AGH."
 authors = ["Aleksander Smywinski-Pohl <apohllo@o2.pl>"]
@@ -16,6 +16,8 @@ pandas = "^2.2.3"
 scikit-learn = "^1.5.2"
 matplotlib = "^3.9.2"
 missingno = "^0.5.2"
+imbalanced-learn = "^0.12.4"
+lightgbm = "^4.5.0"
 
 
 [build-system]
